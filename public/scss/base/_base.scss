@@ -2,7 +2,7 @@ body {
   @include lato();
 
   background: $gray-lightest;
-  margin: 50px 0 100px;
+  margin: 50px 0 10px;
   letter-spacing: .3px;
   color: $secondary-color;
 }
@@ -96,14 +96,13 @@ em {
 ul {
   margin: spacing(2) 0 0;
   -webkit-padding-start: spacing(5);
-
+  margin-left: -10px;
   li {
     padding-left: 0;
   }
 
   &.minimal {
     list-style: none;
-    padding: 0;
 
     li {
       margin-bottom: 3px;
@@ -112,10 +111,10 @@ ul {
   }
 
   &.two-column {
-    -webkit-column-count: 1;
-    -webkit-column-gap: spacing(5.6);
-    column-count: 1;
-    column-gap: spacing(5.6);
+    -webkit-column-count: 2;
+    -webkit-column-gap: spacing(5);
+    column-count: 2;
+    column-gap: spacing(5);
 
     li {
       padding-left: 0;
@@ -124,5 +123,5 @@ ul {
 }
 
 @page {
-  size: A4;
+  size: letter;
 }

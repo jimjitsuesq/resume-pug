@@ -21,14 +21,13 @@
 }
 
 .profile-pic {
-  margin-top: -5px;
+  margin-top: -25px;
   margin-right: 18px;
 
   img {
     height: $profile-pic-size;
-    width: $profile-pic-size;
-    border-radius: 50%;
     border: 2px solid $primary-color;
+    border-radius: 60%;
   }
 }
 

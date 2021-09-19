@@ -3,11 +3,11 @@
   "basics": {
     "name": "Jim Peters",
     "label": "Programmer",
-    "picture": "https://www.jimpeters.dev/static/media/a3.84649282.JPG",
+    "picture": "/static/a3.JPG",
     "email": "Jim@JimPeters.dev",
     "phone": "(805) 263-7140",
     "website": "https://JimPeters.dev",
-    "summary": "Recovering-attorney-turned-software-developer who took advantage of Covid-19 to make a long-overdue career change into tech.  Problem-solving, puzzles, and figuring out how things work are some of my favorite things.",
+    "summary": "<p>Recovering-attorney-turned-software-developer who took advantage of Covid-19 to make a long-overdue career change into tech.  Problem-solving, puzzles, and figuring out how things work are some of my favorite things.</p>  \n    <p>Although my formal coding training is recent, I have spent my entire life 'tinkering' with electronics, teaching myself programming languages and developing various projects to make life easier. I have always prided myself on my ability to quickly pick up a language, program or concept.</p>",
     "location": {
       "address": "111 Baylor Dr",
       "postalCode": "CA 93003",
@@ -28,42 +28,46 @@
       "company": "Morumbi Academy",
       "position": "Jiu Jitsu Instructor",
       "website": "http://morumbijiujitsuacademy.com",
-      "startDate": "2020-09",
+      "location": "Ventura, CA",
+      "startDate": "09/2020",
       "endDate": "Present",
       "summary": "After training Brazilian Jiu Jitsu for over nine years, I was selected from hundreds of students to become an instructor.",
       "highlights": []
     },
     {
-      "company": "PLG, APLC",
+      "company": "PLG, APC",
       "position": "Managing Attorney",
+      "location": "Ventura, CA/Janesville, WI",
       "website": "",
-      "startDate": "2006-08-01",
-      "endDate": "",
+      "startDate": "08/2006",
+      "endDate": "2020",
       "summary": "",
       "highlights": [
-        "Handled all manner of cases in pre-litigation, litigation and before administrative bodies", "Extensive legal research and writing"
+        "Employment law firm", "Handled all manner of cases in pre-litigation, litigation and before administrative bodies", "Coded and maintained Wordpress corporate website from scratch", "Fully customized and maintained Time Matters case management server and software, running on MySQL server"
       ]
     },
     {
       "company": "Cross Law Firm",
       "position": "Associate Attorney",
+      "location": "Milwaukee, WI",
       "website": "",
-      "startDate": "2006-01-01",
-      "endDate": "2006-07-31",
+      "startDate": "01/2006",
+      "endDate": "07/2006",
       "summary": "",
       "highlights": [
-        "Advised management, employees, human resources professionals and union on how best to proceed in disputes", "Information Technology Liaison"
+        "Advised management, employees, human resources professionals and union on how best to proceed in disputes", "Information Technology Liaison", "Researched, installed, customized and oversaw migration to Time Matters case management software, including writing a manual on how to enter data according to firm policies."
       ]
     },
     {
       "company": "Sessions & Kimball, LLP",
       "position": "Associate Attorney",
+      "location": "Mission Viejo, CA",
       "website": "",
-      "startDate": "2002-05-15",
-      "endDate": "2006-01-01",
+      "startDate": "05/2002",
+      "endDate": "01/2006",
       "summary": "",
       "highlights": [
-        "Wrote for weekly Orange County Register column answering employment law questions for readers", "Taught a course at Western State University College of Law on wage & hour law", "Supervised staff of approximately ten law clerks and paralegals", "Chairman of Information Technology Committee"
+        "Wrote for weekly Orange County Register column answering employment law questions for readers", "Taught a course at Western State University College of Law on wage & hour law", "Supervised staff of approximately ten law clerks and paralegals", "Chairman of Information Technology Committee", "Oversaw extensive hardware and software upgrades, including upgrade to case management database and analytics software."
       ]
     }
   ],
@@ -71,27 +75,42 @@
   "education": [
     {
       "institution": "Team Treehouse",
-      "area": "Full-Stack JavaScript Bootcamp",
+      "location": "TeamTreehouse.com",
+      "area": "Full-Stack JavaScript",
       "studyType": "",
-      "location": "",
       "specialization": "",
-      "startDate": "2021-01",
-      "endDate": "2021-07",
+      "startDate": "01/2021",
+      "endDate": "07/2021",
       "gpa": "",
       "courses": [
-        "Received grades of 'Exceeds Expectations' (highest available) on all ten projects"
+        "Received the highest grade available ('Exceeds Expectations') on all ten assigned projects"
       ]
     },
     {
       "institution": "Fowler School of Law",
+      "location": "Orange, CA",
       "area": " ",
       "studyType": "Juris Doctor",
       "specialization": "",
-      "startDate": "2000-08",
-      "endDate": "2003-06",
+      "startDate": "08/2000",
+      "endDate": "06/2003",
       "gpa": "",
       "courses": [
         "American Jurisprudence Awards in Tax Law Research and Bankruptcy Law Courses"
+      ]
+    },
+    {
+      "institution": "University of Wisconsin",
+      "location": "Oshkosh, WI",
+      "area": " ",
+      "studyType": "BA Criminal Justice",
+      "specialization": "",
+      "startDate": "08/1995",
+      "endDate": "06/1999",
+      "gpa": "",
+      "courses": [
+        "Dean's List",
+        "Spanish Minor"
       ]
     }
   ],
@@ -99,13 +118,35 @@
   "publications": [],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Skills-Frontend",
       "level": "",
       "keywords": [
         "HTML",
         "CSS",
         "Javascript",
-        "React"
+        "React",
+        "Sass",
+        "Markdown"
+      ]
+    },
+    {
+      "name": "Skills-Backend",
+      "level": "",
+      "keywords": [
+        "NodeJS",
+        "ExpressJS",
+        "SQL",
+        "Wordpress"
+      ]
+    },
+    {
+      "name": "Skills-Deployment",
+      "level": "",
+      "keywords": [
+        "Google Cloud",
+        "Netlify",
+        "Wordpress",
+        "Github Pages"
       ]
     }
   ],

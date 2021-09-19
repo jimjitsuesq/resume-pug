@@ -10,8 +10,9 @@ $gray-lightest          : #f8f8f8;
 
 $slate-gray             : #39424B;
 $slate-green            : #56817A;
+$blue                   : rgba(24,55,87,.79);
 
-$primary-color          : $slate-green;
+$primary-color          : $blue;
 $secondary-color        : $slate-gray;
 
 $link-color             : #2895F1;
@@ -25,8 +26,8 @@ $secondary-font             : 'Josefin Sans', Helvetica, Arial, sans-serif;
 
 $print-width            : 21cm;
 $print-height           : 29.7cm;
-$page-width             : 563px;
-$page-height            : 750px;
+$page-width             : 700px;
+$page-height            : 900px;
 
 $mobile-width           : 435px;
 $tablet-width           : 768px;
@@ -35,7 +36,7 @@ $desktop-width          : 1200px;
 $retina-width           : 1920px;
 
 $font-unit              : 4px;
-$profile-pic-size       : 52px;
-$aside-width            : 160px;
+$profile-pic-size       : 75px;
+$aside-width            : 190px;
 $aside-margin           : 20px;
 $pad-unit               : 5px;

@@ -5,7 +5,7 @@
   display: block;
   margin: 0 auto;
   border-top: 10px solid $primary-color;
-  padding: 36px 22px 30px 34px;
+  padding: 36px 22px 30px 20px;
   @include shadow();
   @include clearfix();
 }
@@ -15,6 +15,10 @@
   width: $aside-width;
   margin-right: $aside-margin;
   word-wrap: break-word;
+}
+
+.about-container {
+  padding-top: 0;
 }
 
 .right-column {
