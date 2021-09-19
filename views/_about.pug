@@ -1,0 +1,20 @@
+mixin about()
+  .container.about-container 
+    .title 
+      h3 About
+      .keyline
+    .info-tag-container
+      i.fa.fa-map-marker 
+      h6.info-text #{resume.basics.location.address}<br/>#{resume.basics.location.city} #{resume.basics.location.postalCode}
+    .info-tag-container
+      i.fa.fa-envelope-o 
+      h6.info-text #{resume.basics.email}
+    .info-tag-container
+      i.fa.fa-mobile
+      h6.info-text #{resume.basics.phone}
+    .info-tag-container
+      i.fa.fa-desktop
+      h6.info-text #{resume.basics.website}
+    .info-tag-container
+      i.fa.fa-linkedin-square
+      h6.info-text #{resume.basics.profiles[0].username}

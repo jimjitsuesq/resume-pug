@@ -1,0 +1,7 @@
+mixin resume-header()
+  header.resume-header.clearfix
+    div.profile-header.pull-left
+      h1 #{resume.basics.name}
+      h2 #{resume.basics.label}
+    div.profile-pic.pull-right
+      img(src=`${resume.basics.picture}`, alt='profile-pic')

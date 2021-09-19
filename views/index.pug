@@ -1,0 +1,15 @@
+extends layout.pug
+
+block body-content
+  main#resume.page
+    +resume-header
+    +summary 
+    .resume-content 
+      aside.left-column 
+        +about
+        +skills
+        +languages
+        +interests
+      .right-column 
+        +work
+        +education

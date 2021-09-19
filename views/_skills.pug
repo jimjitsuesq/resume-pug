@@ -1,0 +1,8 @@
+mixin skills()
+  .container.skills-container 
+    .title 
+      h3 #{resume.skills[0].name}
+      .keyline
+    ul.minimal 
+      each skill in resume.skills[0].keywords
+        li.h6= skill

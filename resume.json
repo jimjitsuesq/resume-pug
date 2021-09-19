@@ -1,0 +1,158 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jim Peters",
+    "label": "Programmer",
+    "picture": "https://www.jimpeters.dev/static/media/a3.84649282.JPG",
+    "email": "Jim@JimPeters.dev",
+    "phone": "(805) 263-7140",
+    "website": "https://JimPeters.dev",
+    "summary": "Recovering-attorney-turned-software-developer who took advantage of Covid-19 to make a long-overdue career change into tech.  Problem-solving, puzzles, and figuring out how things work are some of my favorite things.",
+    "location": {
+      "address": "111 Baylor Dr",
+      "postalCode": "CA 93003",
+      "city": "Ventura",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIN",
+        "username": "JimPetersDev",
+        "url": "https://www.linkedin.com/in/JimPetersDev/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Morumbi Academy",
+      "position": "Jiu Jitsu Instructor",
+      "website": "http://morumbijiujitsuacademy.com",
+      "startDate": "2020-09",
+      "endDate": "Present",
+      "summary": "After training Brazilian Jiu Jitsu for over nine years, I was selected from hundreds of students to become an instructor.",
+      "highlights": []
+    },
+    {
+      "company": "PLG, APLC",
+      "position": "Managing Attorney",
+      "website": "",
+      "startDate": "2006-08-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Handled all manner of cases in pre-litigation, litigation and before administrative bodies", "Extensive legal research and writing"
+      ]
+    },
+    {
+      "company": "Cross Law Firm",
+      "position": "Associate Attorney",
+      "website": "",
+      "startDate": "2006-01-01",
+      "endDate": "2006-07-31",
+      "summary": "",
+      "highlights": [
+        "Advised management, employees, human resources professionals and union on how best to proceed in disputes", "Information Technology Liaison"
+      ]
+    },
+    {
+      "company": "Sessions & Kimball, LLP",
+      "position": "Associate Attorney",
+      "website": "",
+      "startDate": "2002-05-15",
+      "endDate": "2006-01-01",
+      "summary": "",
+      "highlights": [
+        "Wrote for weekly Orange County Register column answering employment law questions for readers", "Taught a course at Western State University College of Law on wage & hour law", "Supervised staff of approximately ten law clerks and paralegals", "Chairman of Information Technology Committee"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Team Treehouse",
+      "area": "Full-Stack JavaScript Bootcamp",
+      "studyType": "",
+      "location": "",
+      "specialization": "",
+      "startDate": "2021-01",
+      "endDate": "2021-07",
+      "gpa": "",
+      "courses": [
+        "Received grades of 'Exceeds Expectations' (highest available) on all ten projects"
+      ]
+    },
+    {
+      "institution": "Fowler School of Law",
+      "area": " ",
+      "studyType": "Juris Doctor",
+      "specialization": "",
+      "startDate": "2000-08",
+      "endDate": "2003-06",
+      "gpa": "",
+      "courses": [
+        "American Jurisprudence Awards in Tax Law Research and Bankruptcy Law Courses"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "Brazilian Jiu Jitsu Brown Belt",
+        "High School Wrestling Referee"
+      ]
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "url": "missdirection.example.com",
+      "roles": [
+        "Team lead",
+        "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

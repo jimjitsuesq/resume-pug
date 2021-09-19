@@ -1,0 +1,40 @@
+mixin work()
+  .container.work-container 
+    .title 
+      h3 Experience 
+      .keyline 
+    .item
+      .section-header.clearfix 
+        h3.bold.pull-left #{resume.work[0].company}
+        h5.italic.pull-right #{resume.work[0].startDate} - #{resume.work[0].endDate}
+      h4 #{resume.work[0].position}
+      p.summary  #{resume.work[0].summary}
+    .item
+    .section-header.clearfix 
+      h3.bold.pull-left #{resume.work[1].company}
+      h5.italic.pull-right #{resume.work[1].startDate} - #{resume.work[1].endDate}
+    h4 #{resume.work[1].position}
+    p.summary  #{resume.work[1].summary}
+    ul 
+      li #{resume.work[1].highlights[0]}
+      li #{resume.work[1].highlights[1]}
+    .item
+    .section-header.clearfix 
+      h3.bold.pull-left #{resume.work[2].company}
+      h5.italic.pull-right #{resume.work[2].startDate} - #{resume.work[2].endDate}
+    h4 #{resume.work[2].position}
+    p.summary  #{resume.work[2].summary}
+    ul 
+      li #{resume.work[2].highlights[0]}
+      li #{resume.work[2].highlights[1]}
+    .item
+    .section-header.clearfix 
+      h3.bold.pull-left #{resume.work[3].company}
+      h5.italic.pull-right #{resume.work[3].startDate} - #{resume.work[3].endDate}
+    h4 #{resume.work[3].position}
+    p.summary  #{resume.work[3].summary}
+    ul 
+      li #{resume.work[3].highlights[0]}
+      li #{resume.work[3].highlights[1]}
+      li #{resume.work[3].highlights[2]}
+      li #{resume.work[3].highlights[3]}

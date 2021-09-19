@@ -1,0 +1,21 @@
+mixin education()
+  .container.education-container 
+    .title 
+      h3 Education
+      .keyline 
+    .item
+      .section-header.clearfix 
+        h3.bold.pull-left #{resume.education[0].institution}
+        h5.italic.pull-right #{resume.education[0].startDate} - #{resume.education[0].endDate}
+      h4 #{resume.education[0].studyType}
+      h4 #{resume.education[0].area}
+      ul 
+        li #{resume.education[0].courses[0]}
+    .item
+      .section-header.clearfix 
+        h3.bold.pull-left #{resume.education[1].institution}
+        h5.italic.pull-right #{resume.education[1].startDate} - #{resume.education[1].endDate}
+      h4 #{resume.education[1].studyType}
+      h4 #{resume.education[1].area}
+      ul 
+        li #{resume.education[1].courses[0]}

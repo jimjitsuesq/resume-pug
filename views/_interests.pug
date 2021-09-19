@@ -1,0 +1,8 @@
+mixin interests()
+  .container.skills-container 
+    .title 
+      h3 Interests
+      .keyline
+    ul.minimal 
+      each interest in resume.interests[0].keywords
+        li.h6= interest
