@@ -1,7 +1,22 @@
 const express = require('express');
 const resume = require('./resume.json');
 const app = express();
+
+const schools = [];
+const jobs = [];
 app.locals.resume = resume;
+app.locals.schools = schools;
+app.locals.jobs = jobs;
+
+function generateArrays () {
+  resume.education.forEach(school => {
+    schools.push(school)
+  })
+  resume.work.forEach(job => {
+    jobs.push(job)
+  })
+}
+generateArrays()
 
 app.use('/static', express.static('public'));
 app.use('/images', express.static('images'));

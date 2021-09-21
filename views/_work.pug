@@ -3,44 +3,15 @@ mixin work()
     .title 
       h3 Experience 
       .keyline 
-    .item
+    each job in jobs
+      .item
       .section-header.clearfix 
-        h3.bold.pull-left #{resume.work[0].company}
-        h5.italic.pull-right #{resume.work[0].startDate} - #{resume.work[0].endDate}
+        h3.bold.pull-left #{job.company}
+        h5.italic.pull-right #{job.startDate} - #{job.endDate}
       .section-header.clearfix 
-        h4.pull-left #{resume.work[0].position}
-        h4.pull-right #{resume.work[0].location}
-      p.summary  #{resume.work[0].summary}
-    .item
-    .section-header.clearfix 
-      h3.bold.pull-left #{resume.work[1].company}
-      h5.italic.pull-right #{resume.work[1].startDate} - #{resume.work[1].endDate}
-    .section-header.clearfix 
-     h4.pull-left #{resume.work[1].position}
-      h4.pull-right #{resume.work[1].location}
-    p.summary  #{resume.work[1].summary}
-    ul
-      each highlight in resume.work[1].highlights
-        li= highlight
-    .item
-    .section-header.clearfix 
-      h3.bold.pull-left #{resume.work[2].company}
-      h5.italic.pull-right #{resume.work[2].startDate} - #{resume.work[2].endDate}
-    .section-header.clearfix 
-      h4.pull-left #{resume.work[2].position}
-      h4.pull-right #{resume.work[2].location}
-    p.summary  #{resume.work[2].summary}
-    ul
-      each highlight in resume.work[2].highlights
-        li= highlight
-    .item
-    .section-header.clearfix 
-      h3.bold.pull-left #{resume.work[3].company}
-      h5.italic.pull-right #{resume.work[3].startDate} - #{resume.work[3].endDate}
-    .section-header.clearfix 
-      h4.pull-left #{resume.work[3].position}
-      h4.pull-right #{resume.work[3].location}
-    p.summary  #{resume.work[3].summary}
-    ul
-      each highlight in resume.work[3].highlights
-        li= highlight
+        h4.pull-left #{job.position}
+        h4.pull-right #{job.location}
+      p.summary  #{job.summary}
+      ul
+        each highlight in job.highlights
+          li= highlight

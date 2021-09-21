@@ -2,35 +2,17 @@ mixin education()
   .container.education-container 
     .title 
       h3 Education
-      .keyline 
-    .item
-      .section-header.clearfix 
-        h4.bold.pull-left #{resume.education[0].institution}
-        h5.italic.pull-right #{resume.education[0].startDate} - #{resume.education[0].endDate}
-      .section-header.clearfix 
-        h4.pull-left #{resume.education[0].studyType}
-        h4.pull-left #{resume.education[0].area}
-        h4.pull-right #{resume.education[0].location}
-      ul
-        li #{resume.education[0].courses[0]}
-    .item
-      .section-header.clearfix 
-        h4.bold.pull-left #{resume.education[1].institution}
-        h5.italic.pull-right #{resume.education[1].startDate} - #{resume.education[1].endDate}
-      .section-header.clearfix
-        h4.pull-left #{resume.education[1].studyType}
-        h4.pull-left #{resume.education[1].area}
-        h4.pull-right #{resume.education[1].location}
-      ul
-        li #{resume.education[1].courses[0]}
-    .item
-      .section-header.clearfix 
-        h4.bold.pull-left #{resume.education[2].institution}
-        h5.italic.pull-right #{resume.education[2].startDate} - #{resume.education[2].endDate}
-      .section-header.clearfix
-        h4.pull-left #{resume.education[2].studyType}
-        h4.pull-left #{resume.education[2].area}
-        h4.pull-right #{resume.education[2].location}
-      ul
-        li #{resume.education[2].courses[0]}
-        li #{resume.education[2].courses[1]}
+      .keyline
+    each school in schools
+      .item
+        .section-header.clearfix 
+          h4.bold.pull-left #{school.institution}
+          h5.italic.pull-right #{school.startDate} - #{school.endDate}
+        .section-header.clearfix 
+          h4.pull-left #{school.studyType}
+          h4.pull-left #{school.area}
+          h4.pull-right #{school.location}
+        ul
+        each course in school.courses
+          li= course
+
