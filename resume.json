@@ -83,7 +83,7 @@
       "endDate": "07/2021",
       "gpa": "",
       "courses": [
-        "Received the highest grade available ('Exceeds Expectations') on all ten assigned projects"
+        "Received the highest grade available ('Exceeds Expectations') on all ten assigned projects."
       ]
     },
     {
@@ -143,6 +143,25 @@
       "name": "Skills-Deployment",
       "level": "",
       "keywords": [
+        "Google Cloud",
+        "Netlify",
+        "Wordpress",
+        "Github Pages"
+      ]
+    }
+    ,
+    {
+      "name": "Skills",
+      "level": "",
+      "keywords": [
+        "NodeJS",
+        "ExpressJS",
+        "SQL",
+        "Wordpress",
+        "NodeJS",
+        "ExpressJS",
+        "SQL",
+        "Wordpress",
         "Google Cloud",
         "Netlify",
         "Wordpress",
