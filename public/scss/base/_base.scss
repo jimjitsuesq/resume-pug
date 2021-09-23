@@ -94,7 +94,7 @@ em {
 }
 
 ul {
-  margin: spacing(2) 0 0;
+  margin: 0 0 0;
   -webkit-padding-start: spacing(5);
   margin-left: -10px;
   li {
@@ -103,7 +103,6 @@ ul {
 
   &.minimal {
     list-style: none;
-
     li {
       margin-bottom: 3px;
       margin-left: -15px;
@@ -115,7 +114,6 @@ ul {
     -webkit-column-gap: spacing(5);
     column-count: 2;
     column-gap: spacing(5);
-
     li {
       padding-left: 0;
     }

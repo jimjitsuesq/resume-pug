@@ -1,0 +1,16 @@
+mixin transferableSkills()
+  .container.transferableSkills-container
+    .title
+      h3 General Skills
+      .keyline
+      p While I may not have as much formal work experience in software development as some candidates, I developed superior skills in my former career as a litigation attorney that are directly apply to development jobs, such as advanced project management, problem solving and communication skills.
+    each skill in transferableSkills
+      .item
+      .section-header.clearfix 
+        h3.bold.pull-left #{skill.name}
+        .section-header.clearfix 
+        p #{skill.summary}
+      .section-header.clearfix 
+        ul
+          each item in skill.attributes 
+            li= item
