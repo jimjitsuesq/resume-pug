@@ -3,6 +3,7 @@ extends layout.pug
 block body-content
   main#resume.page
     +resume-header
+    +summary
     .resume-content 
       aside.left-column
         +about
@@ -10,6 +11,5 @@ block body-content
         +skills
         +interests
       .right-column 
-        +summary
         +transferableSkills
         +work

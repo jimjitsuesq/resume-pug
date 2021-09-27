@@ -1,32 +1,48 @@
 @media print {
-  body {
-    margin: 0;
-  }
+  // body {
+  //   margin: 0;
+  // }
 
-  .page {
+  .body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 36px 0 0px;
-    box-shadow: none;
-
-    .resume-header,
-    .resume-content {
-      padding: 0;
-    }
+    size: letter;
+    // .resume-header,
+    // .resume-content {
+    //   padding: 0;
+    // }
   }
 
-  // .container {
-  //   page-break-inside: avoid;
-  // }
+  .page {
+    box-shadow: none;
+    padding: 36px 0 0px;
+    margin: 0;
+  }
 
-  // .work-container {
-  //   .item {
-  //     page-break-inside: avoid;
-  //   }
-  // }
+  .skills-container {
+    page-break-inside: avoid;
+  }
+
+  .work-container {
+    .item {
+      page-break-inside: avoid;
+    }
+  }
 
   .fa-external-link {
     display: none;
   }
 }
+
+@page :first {
+  margin-top: 0;
+}
+
+@page {
+  margin-left: .846cm;
+  margin-right: .846cm;
+  margin-bottom: .846cm;
+}
+

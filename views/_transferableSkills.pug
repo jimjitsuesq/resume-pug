@@ -1,9 +1,9 @@
 mixin transferableSkills()
   .container.transferableSkills-container
     .title
-      h3 General Skills
+      h3 Workplace Skills
       .keyline
-      p While I may not have as much formal work experience in software development as some candidates, I developed superior skills in my former career as a litigation attorney that are directly apply to development jobs, such as advanced project management, problem solving and communication skills.
+      p While I may not have as much formal work experience in software development as some candidates, I developed valuable skills in my former career as a litigation attorney that I can use to excel in a development environment.
     each skill in transferableSkills
       .item
       .section-header.clearfix 
@@ -12,5 +12,5 @@ mixin transferableSkills()
         p #{skill.summary}
       .section-header.clearfix 
         ul
-          each item in skill.attributes 
+          each item in skill.examples 
             li= item

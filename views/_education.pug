@@ -8,12 +8,13 @@ mixin education()
         .section-header.clearfix 
           h4.bold.pull-left #{school.institution}
           .section-header.clearfix 
-          h5.italic.pull-left #{school.startDate} - #{school.endDate}
+          h5.italic.pull-left #{school.startDate} #{school.endDate}
+          h5.italic.pull-right.location #{school.location}
           .section-header.clearfix 
-          h4.pull-left #{school.studyType}
-          h4.pull-left #{school.area}
+          //- h4.pull-left #{school.studyType}
+          //- h4.pull-left #{school.area}
           //- .section-header.clearfix 
-          //- h4.pull-left #{school.location}
+          //- 
         ul
           each course in school.courses
             li= course
