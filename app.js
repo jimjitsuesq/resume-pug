@@ -4,19 +4,30 @@ const app = express();
 
 const schools = [];
 const jobs = [];
+const skills = [];
+const transferableSkills = [];
 app.locals.resume = resume;
 app.locals.schools = schools;
 app.locals.jobs = jobs;
+app.locals.skills = skills;
+app.locals.transferableSkills = transferableSkills;
 
 function generateArrays () {
   resume.education.forEach(school => {
-    schools.push(school)
-  })
+    schools.push(school);
+  });
   resume.work.forEach(job => {
-    jobs.push(job)
-  })
-}
+    jobs.push(job);
+  });
+  resume.skills.forEach(skill => {
+    skills.push(skill);
+  });
+  resume.transferableSkills.forEach(skill => {
+    transferableSkills.push(skill);
+  });
+};
 generateArrays()
+
 
 app.use('/static', express.static('public'));
 app.use('/images', express.static('images'));

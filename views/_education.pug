@@ -7,12 +7,15 @@ mixin education()
       .item
         .section-header.clearfix 
           h4.bold.pull-left #{school.institution}
-          h5.italic.pull-right #{school.startDate} - #{school.endDate}
-        .section-header.clearfix 
-          h4.pull-left #{school.studyType}
-          h4.pull-left #{school.area}
-          h4.pull-right #{school.location}
+          .section-header.clearfix 
+          h5.italic.pull-left #{school.startDate} #{school.endDate}
+          h5.italic.pull-right.location #{school.location}
+          .section-header.clearfix 
+          //- h4.pull-left #{school.studyType}
+          //- h4.pull-left #{school.area}
+          //- .section-header.clearfix 
+          //- 
         ul
-        each course in school.courses
-          li= course
+          each course in school.courses
+            li= course
 

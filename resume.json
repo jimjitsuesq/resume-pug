@@ -1,15 +1,15 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jim Peters",
     "label": "Programmer",
     "picture": "/static/a3.JPG",
     "email": "Jim@JimPeters.dev",
     "phone": "(805) 263-7140",
-    "website": "https://JimPeters.dev",
-    "summary": "<p>Recovering-attorney-turned-software-developer who took advantage of Covid-19 to make a long-overdue career change into tech.  Problem-solving, puzzles, and figuring out how things work are some of my favorite things.</p>  \n    <p>Although my formal coding training is recent, I have spent my entire life 'tinkering' with electronics, teaching myself programming languages and developing various projects to make life easier. I have always prided myself on my ability to quickly pick up a language, program or concept.</p>",
+    "website": "https://www.JimPeters.dev",
+    "summary": 
+    "<p>Recovering-attorney-turned-software-developer who took advantage of Covid-19 to make a long-overdue career change into tech. Problem-solving, puzzles, and figuring out how things work are some of my favorite things.</p>  \n    <p>Although my formal coding training is recent, my love for computers and technology in general started at an early age. During my entire life I have tinkered with electronics, explored software and taught myself programming languages to develop personal projects that make life easier.</p> \n    <p> I am fully committed to a career in software development and leveraging the strong, fundamental skills I acquired practicing law to do it. I invite you to visit my portfolio website (<a href='https://www.jimpeters.dev' style='text-decoration: underline'> JimPeters.dev</a>) to see some of the work I have done and learn more about me.</p>",
     "location": {
-      "address": "111 Baylor Dr",
+      "address": "111 Baylor Drive",
       "postalCode": "CA 93003",
       "city": "Ventura",
       "countryCode": "US",
@@ -23,15 +23,67 @@
       }
     ]
   },
+  "transferableSkills" : [
+    {
+      "name": "Project Management",
+      "summary": "The day-to-day duties of an attorney really are are no different than those of a project manager. Each case is a complex 'project' with its own set of stakeholders, moving parts and challenges that must be managed.",
+      "examples": [
+        "I have successfully handled up to 100 clients at a time.",
+        "I started and maintained a successful law firm where I simultaneously handled all roles, including attorney, office manager, IT department, etc.",
+        "I quickly developed the time management skills necessary to succeed practicing law. Strict deadlines, client demands, and other pressures force you to always be organized and use time wisely."
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "summary": "A lawyer's main function is to solve problems. Whether it's the problem your client initially hired you to fix or the many unforeseen ones that arise throughout the life of a case, the ability to solve them quickly and reliably is key.",
+      "examples": [
+        "I successfully resolved hundreds of cases for my clients with a 99% favorable outcome rate.",
+        "I pride myself on my ability to break down complex problems into smaller, manageable components to avoid getting overwhelmed. This skill has already served me well in coding while developing my projects and working through difficult bugs.",
+        "I also have above-average skills and experience researching complex issues. When faced with a difficult problem, I can quickly determine and find what information I need to solve it.",
+        "Just like coding, a legal problem often hinges on revisiting one tiny, overlooked detail. Paying close attention to monitor many things at once while also looking at the big picture is just part of the job."
+      ]
+    },
+    {
+      "name": "Communication Skills",
+      "summary": "Whether it's communicating with your client, a judge or a colleague, lawyers needs to have superior communication skills to do their job well.",
+      "examples": [
+        "Because I have interviewed thousands of witnesses, clients, opposing parties, and other individuals during my career, I am able to ask the right questions to foster communication and quickly get the information I need.",
+        "I know how to actively listen when people are speaking to better understand them and make them feel heard.",
+        "I am very skilled at explaining complex concepts to people, based not only on years of explaining the law to laypeople, but also as a Jiu Jitsu instructor teaching complex movements and concepts to inexperienced students.",
+        "My written communication skills are also highly-evolved, so I am able to clearly, succinctly and persuasively communicate with others using precise and balanced language.",
+        "Another important skill related to communication is the ability to work and collaborate with a team. I have enjoyed many successful relationships with co-counsel (and even opposing counsel) that required us to work well together towards resolution of a dispute.",
+        "Finally, my presentation and public speaking skills have been honed in courtrooms, boardrooms and other settings where I feel comfortable presenting information to groups large and small."
+      ]
+    },
+    {
+      "name": "Creativity",
+      "summary": "Many people understandably do not think of attorneys as being 'creative' by nature, but I would argue that the good ones are extremely creative.",
+      "examples": [
+        "We are constantly forced to think outside the box to develop new, unexpected ways of doing things to gain an edge on our adversaries.", 
+        "Attempting to use a set of laws in a new way is very similar to do something new with a piece of software, language or library.",
+        "My creativity also fosters a healthy, constant curiosity about how things can be done 'better' and a desire to continue learning new skills to facilitate that."
+      ]
+    }
+  ],
   "work": [
+    {
+      "company": "Team Treehouse",
+      "position": "Full-Stack JavaScript Bootcamp Student",
+      "website": "http://www.teamtreehouse.com",
+      "location": "Teamtreehouse.com",
+      "startDate": "2021",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["Received perfect scores on all ten assigned projects"]
+    },
     {
       "company": "Morumbi Academy",
       "position": "Jiu Jitsu Instructor",
       "website": "http://morumbijiujitsuacademy.com",
       "location": "Ventura, CA",
-      "startDate": "09/2020",
-      "endDate": "Present",
-      "summary": "After training Brazilian Jiu Jitsu for over nine years, I was selected from hundreds of students to become an instructor.",
+      "startDate": "2019",
+      "endDate": "- Present",
+      "summary": "After training Brazilian Jiu Jitsu for over eight years, I was selected from hundreds of students to become an instructor",
       "highlights": []
     },
     {
@@ -39,11 +91,11 @@
       "position": "Managing Attorney",
       "location": "Ventura, CA/Janesville, WI",
       "website": "",
-      "startDate": "08/2006",
-      "endDate": "2020",
+      "startDate": "2006",
+      "endDate": "- 2020",
       "summary": "",
       "highlights": [
-        "Employment law firm", "Handled all manner of cases in pre-litigation, litigation and before administrative bodies", "Coded and maintained Wordpress corporate website from scratch", "Fully customized and maintained Time Matters case management server and software, running on MySQL server"
+        "Handled all manner of cases in pre-litigation, litigation and before administrative bodies", "Coded from scratch and maintained firm website using Wordpress", "Published a popular blog about employment law", "Fully customized and maintained Time Matters case management MySQL server and software"
       ]
     },
     {
@@ -51,11 +103,11 @@
       "position": "Associate Attorney",
       "location": "Milwaukee, WI",
       "website": "",
-      "startDate": "01/2006",
-      "endDate": "07/2006",
+      "startDate": "2006",
+      "endDate": "",
       "summary": "",
       "highlights": [
-        "Advised management, employees, human resources professionals and union on how best to proceed in disputes", "Information Technology Liaison", "Researched, installed, customized and oversaw migration to Time Matters case management software, including writing a manual on how to enter data according to firm policies."
+        "Advised management, employees, human resources professionals and unions in resolving disputes", "Information Technology Liaison", "Researched, installed, customized and oversaw migration to Time Matters case management software, including writing a technical manual on how to enter data in accordance with firm policies."
       ]
     },
     {
@@ -63,11 +115,11 @@
       "position": "Associate Attorney",
       "location": "Mission Viejo, CA",
       "website": "",
-      "startDate": "05/2002",
-      "endDate": "01/2006",
+      "startDate": "2002",
+      "endDate": "- 2006",
       "summary": "",
       "highlights": [
-        "Wrote for weekly Orange County Register column answering employment law questions for readers", "Taught a course at Western State University College of Law on wage & hour law", "Supervised staff of approximately ten law clerks and paralegals", "Chairman of Information Technology Committee", "Oversaw extensive hardware and software upgrades, including upgrade to case management database and analytics software."
+        "Wrote for weekly Orange County Register column answering employment law questions for readers", "Taught a course at Western State University College of Law on wage & hour law", "Supervised staff of approximately ten law clerks and paralegals", "Chairman of Information Technology Committee", "Oversaw extensive hardware and software upgrades, including case management and analytics software"
       ]
     }
   ],
@@ -79,24 +131,25 @@
       "area": "Full-Stack JavaScript",
       "studyType": "",
       "specialization": "",
-      "startDate": "01/2021",
-      "endDate": "07/2021",
+      "startDate": "2021",
+      "endDate": "",
       "gpa": "",
       "courses": [
-        "Received the highest grade available ('Exceeds Expectations') on all ten assigned projects"
+        "Full-Stack JavaScript Certificate",
+        "Received highest grade available ('Exceeds Expectations') on all ten assigned projects."
       ]
     },
     {
       "institution": "Fowler School of Law",
       "location": "Orange, CA",
       "area": " ",
-      "studyType": "Juris Doctor",
+      "studyType": "Law Degree",
       "specialization": "",
-      "startDate": "08/2000",
-      "endDate": "06/2003",
+      "startDate": "2000",
+      "endDate": "- 2003",
       "gpa": "",
       "courses": [
-        "American Jurisprudence Awards in Tax Law Research and Bankruptcy Law Courses"
+        "Law Degree", "American Jurisprudence Awards in Tax Law Research and Bankruptcy Law Courses"
       ]
     },
     {
@@ -105,11 +158,11 @@
       "area": " ",
       "studyType": "BA Criminal Justice",
       "specialization": "",
-      "startDate": "08/1995",
-      "endDate": "06/1999",
+      "startDate": "1995",
+      "endDate": "- 1999",
       "gpa": "",
       "courses": [
-        "Dean's List",
+        "BA Criminal Justice", "Dean's List",
         "Spanish Minor"
       ]
     }
@@ -118,7 +171,7 @@
   "publications": [],
   "skills": [
     {
-      "name": "Skills-Frontend",
+      "name": "Skills - Frontend",
       "level": "",
       "keywords": [
         "HTML",
@@ -130,7 +183,7 @@
       ]
     },
     {
-      "name": "Skills-Backend",
+      "name": "Skills - Backend",
       "level": "",
       "keywords": [
         "NodeJS",
@@ -140,7 +193,7 @@
       ]
     },
     {
-      "name": "Skills-Deployment",
+      "name": "Skills - Deployment",
       "level": "",
       "keywords": [
         "Google Cloud",
@@ -166,34 +219,5 @@
     }
   ],
   "references": [],
-  "projects": [
-    {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
-      "roles": [
-        "Team lead",
-        "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
-    }
-  ],
-  "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
-  }
+  "projects": []
 }

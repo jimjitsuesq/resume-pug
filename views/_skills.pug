@@ -1,22 +1,10 @@
 mixin skills()
-  .container.skills-container
-    .title 
-      h3 #{resume.skills[0].name}
-      .keyline
-    ul.two-column 
-      each skill in resume.skills[0].keywords
-        li.h6= skill
-    <br />
-    .title 
-      h3 #{resume.skills[1].name}
-      .keyline
-    ul.two-column 
-      each skill in resume.skills[1].keywords
-        li.h6= skill
-    <br />
-    .title 
-      h3 #{resume.skills[2].name}
-      .keyline
-    ul.two-column 
-      each skill in resume.skills[2].keywords
-        li.h6= skill
+  each skill in skills
+    .container.skills-container
+      .title 
+        h3 #{skill.name}
+        .keyline
+      ul.two-column 
+        each keyword in skill.keywords
+          li.h6= keyword
+    

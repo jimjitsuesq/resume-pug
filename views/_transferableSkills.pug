@@ -1,0 +1,16 @@
+mixin transferableSkills()
+  .container.transferableSkills-container
+    .title
+      h3 Workplace Skills
+      .keyline
+      p While I may not have as much formal work experience in software development as some candidates, I developed valuable skills in my former career as a litigation attorney that I can use to excel in a development environment.
+    each skill in transferableSkills
+      .item
+      .section-header.clearfix 
+        h3.bold.pull-left #{skill.name}
+        .section-header.clearfix 
+        p #{skill.summary}
+      .section-header.clearfix 
+        ul
+          each item in skill.examples 
+            li= item

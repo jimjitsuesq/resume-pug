@@ -1,17 +1,17 @@
 mixin work()
   .container.work-container 
     .title 
-      h3 Experience 
+      h3 Work Experience 
       .keyline 
     each job in jobs
       .item
-      .section-header.clearfix 
-        h3.bold.pull-left #{job.company}
-        h5.italic.pull-right #{job.startDate} - #{job.endDate}
-      .section-header.clearfix 
-        h4.pull-left #{job.position}
-        h4.pull-right #{job.location}
-      p.summary  #{job.summary}
-      ul
-        each highlight in job.highlights
-          li= highlight
+        .section-header.clearfix 
+          h3.bold.pull-left #{job.company}
+          h5.italic.pull-right #{job.startDate} #{job.endDate}
+        .section-header.clearfix 
+          h4.pull-left #{job.position}
+          h4.pull-right #{job.location}
+        p.summary  #{job.summary}
+        ul
+          each highlight in job.highlights
+            li= highlight
