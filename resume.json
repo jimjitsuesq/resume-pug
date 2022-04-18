@@ -7,7 +7,7 @@
     "phone": "(805) 263-7140",
     "website": "https://www.JimPeters.dev",
     "summary": 
-    "<p>Recovering-attorney-turned-software-developer who took advantage of Covid-19 to make a long-overdue career change into tech. Problem-solving, puzzles, and figuring out how things work are some of my favorite things.</p>  \n    <p>Although my formal coding training is recent, my love for computers and technology in general started at an early age. During my entire life I have tinkered with electronics, explored software and taught myself programming languages to develop personal projects that make life easier.</p> \n    <p> I am fully committed to a career in software development and leveraging the strong, fundamental skills I acquired practicing law to do it. I invite you to visit my portfolio website (<a href='https://www.jimpeters.dev' style='text-decoration: underline'> JimPeters.dev</a>) to see some of the work I have done and learn more about me.</p>",
+    "<p>Recovering-attorney-turned-software-developer who took advantage of Covid-19 to make a long-overdue career change into tech. Problem-solving, puzzles, and figuring out how things work are some of my favorite things.</p>  \n    <p>Although my formal coding training is recent, my love for computers and technology in general started at an early age. During my entire life I have tinkered with gadgets, explored software and taught myself programming languages to develop personal projects and use technology to make life easier.</p> \n    <p> I am fully committed to a career in software development and leveraging the strong, fundamental skills I acquired practicing law to do it. I invite you to visit my portfolio website (<a href='https://www.jimpeters.dev' style='text-decoration: underline'> JimPeters.dev</a>) to see some of the work I have done and learn more about me.</p>",
     "location": {
       "address": "111 Baylor Drive",
       "postalCode": "CA 93003",
@@ -26,11 +26,11 @@
   "transferableSkills" : [
     {
       "name": "Project Management",
-      "summary": "The day-to-day duties of an attorney really are are no different than those of a project manager. Each case is a complex 'project' with its own set of stakeholders, moving parts and challenges that must be managed.",
+      "summary": "The day-to-day duties of an attorney really are quite similar to those of a project manager. Each case is a complex 'project' with its own set of stakeholders, moving parts and challenges that must be managed.",
       "examples": [
         "I have successfully handled up to 100 clients at a time.",
-        "I started and maintained a successful law firm where I simultaneously handled all roles, including attorney, office manager, IT department, etc.",
-        "I quickly developed the time management skills necessary to succeed practicing law. Strict deadlines, client demands, and other pressures force you to always be organized and use time wisely."
+        "I started and managed a successful law firm where I simultaneously handled all roles, including attorney, office manager, IT department, etc.",
+        "I quickly developed the time management skills necessary to succeed practicing law. Strict deadlines, client demands, and other pressures taught me to always be organized and use time wisely."
       ]
     },
     {
@@ -39,33 +39,52 @@
       "examples": [
         "I successfully resolved hundreds of cases for my clients with a 99% favorable outcome rate.",
         "I pride myself on my ability to break down complex problems into smaller, manageable components to avoid getting overwhelmed. This skill has already served me well in coding while developing my projects and working through difficult bugs.",
-        "I also have above-average skills and experience researching complex issues. When faced with a difficult problem, I can quickly determine and find what information I need to solve it.",
-        "Just like coding, a legal problem often hinges on revisiting one tiny, overlooked detail. Paying close attention to monitor many things at once while also looking at the big picture is just part of the job."
+        "I also have superior skills and experience researching complex issues. When faced with a difficult problem, I can quickly determine and find the information I need to solve it.",
+        "Just like coding, a legal problem often hinges on revisiting one tiny, overlooked detail. Paying close attention and monitoring many things at once while also looking at the big picture is just part of the job."
       ]
     },
     {
       "name": "Communication Skills",
-      "summary": "Whether it's communicating with your client, a judge or a colleague, lawyers needs to have superior communication skills to do their job well.",
+      "summary": "Whether it's communicating with a client, judge or colleague, superior communication skills are a must for lawyers.",
       "examples": [
-        "Because I have interviewed thousands of witnesses, clients, opposing parties, and other individuals during my career, I am able to ask the right questions to foster communication and quickly get the information I need.",
+        "Because I have interviewed thousands of witnesses, clients, opposing parties, and other individuals during my career, I am able to ask the right questions to foster communication and quickly get the information I need from people.",
         "I know how to actively listen when people are speaking to better understand them and make them feel heard.",
         "I am very skilled at explaining complex concepts to people, based not only on years of explaining the law to laypeople, but also as a Jiu Jitsu instructor teaching complex movements and concepts to inexperienced students.",
         "My written communication skills are also highly-evolved, so I am able to clearly, succinctly and persuasively communicate with others using precise and balanced language.",
-        "Another important skill related to communication is the ability to work and collaborate with a team. I have enjoyed many successful relationships with co-counsel (and even opposing counsel) that required us to work well together towards resolution of a dispute.",
-        "Finally, my presentation and public speaking skills have been honed in courtrooms, boardrooms and other settings where I feel comfortable presenting information to groups large and small."
+        "Another related skill is the ability to work and collaborate with a team. I have enjoyed many successful relationships with co-counsel (and even opposing counsel) that required us to work well together towards resolution of a dispute.",
+        "Additionally, my presentation and public speaking skills have been honed in courtrooms, boardrooms and other settings where I feel comfortable presenting information to groups large and small."
       ]
     },
     {
       "name": "Creativity",
-      "summary": "Many people understandably do not think of attorneys as being 'creative' by nature, but I would argue that the good ones are extremely creative.",
+      "summary": "Many people understandably do not think of attorneys as being creative by nature, but I would argue that the good ones are actually very creative.",
       "examples": [
-        "We are constantly forced to think outside the box to develop new, unexpected ways of doing things to gain an edge on our adversaries.", 
-        "Attempting to use a set of laws in a new way is very similar to do something new with a piece of software, language or library.",
-        "My creativity also fosters a healthy, constant curiosity about how things can be done 'better' and a desire to continue learning new skills to facilitate that."
+        "Attorneys are constantly forced to think outside the box to develop new, unexpected ways of doing things to gain an edge on our adversaries.", 
+        "Attempting to use a set of laws in a new way is very similar to trying to do something new with a piece of software, language or library.",
+        "My creativity also fosters a constant curiosity about how things can be done 'better' and a desire to continue improving and learning new skills to facilitate that."
       ]
     }
   ],
   "work": [
+    {
+      "company": "Jim Peters",
+      "position": "Freelance Software Developer",
+      "website": "https://www.JimPeters.dev",
+      "location": "Ventura, CA",
+      "startDate": "2021",
+      "endDate": "- Present",
+      "summary": "",
+      "highlights": ["Self-employed software developer seeking opportunities to improve the way organizations do business"]
+    },
+    {
+      "company": "Ventura Unified/Oxnard Union High School Districts",
+      "position": "Substitute Teacher/Wrestling Coach",
+      "location": "Ventura, CA; Oxnard, CA",
+      "startDate": "2021",
+      "endDate": "- Present",
+      "summary": "",
+      "highlights": ["Full-time substitute teacher for various subjects in middle and high schools throughout Ventura County","Ventura High School Assistant Wrestling Coach"]
+    },
     {
       "company": "Team Treehouse",
       "position": "Full-Stack JavaScript Bootcamp Student",
@@ -74,7 +93,7 @@
       "startDate": "2021",
       "endDate": "",
       "summary": "",
-      "highlights": ["Received perfect scores on all ten assigned projects"]
+      "highlights": ["Received highest grade available ('Exceeds Expectations') on all ten assigned projects"]
     },
     {
       "company": "Morumbi Academy",
@@ -83,8 +102,8 @@
       "location": "Ventura, CA",
       "startDate": "2019",
       "endDate": "- Present",
-      "summary": "After training Brazilian Jiu Jitsu for over eight years, I was selected from hundreds of students to become an instructor",
-      "highlights": []
+      "summary": "",
+      "highlights": ["After training Brazilian Jiu Jitsu for almost ten years, I was selected from hundreds of students to be an instructor", "Teach classes ranging from 2-50 students the fundamentals of the sport, as well as effective self-defense techniques"]
     },
     {
       "company": "PLG, APC",
@@ -95,7 +114,7 @@
       "endDate": "- 2020",
       "summary": "",
       "highlights": [
-        "Handled all manner of cases in pre-litigation, litigation and before administrative bodies", "Coded from scratch and maintained firm website using Wordpress", "Published a popular blog about employment law", "Fully customized and maintained Time Matters case management MySQL server and software"
+        "Handled all manner of cases in pre-litigation, litigation and before administrative bodies", "Coded from scratch and maintained firm website using Wordpress", "Published a popular blog about employment law", "Fully customized and maintained Time Matters case management software and MySQL server"
       ]
     },
     {
@@ -136,7 +155,7 @@
       "gpa": "",
       "courses": [
         "Full-Stack JavaScript Certificate",
-        "Received highest grade available ('Exceeds Expectations') on all ten assigned projects."
+        "Received perfect scores on all ten assigned projects"
       ]
     },
     {

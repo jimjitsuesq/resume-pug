@@ -21,13 +21,20 @@
     margin: 0;
   }
 
-  .skills-container {
+  .interests-container {
+    page-break-inside: avoid;
+    padding-top: 7px;
+  }
+
+  .container {
     page-break-inside: avoid;
   }
 
   .work-container {
+    padding-top: 5px;
     .item {
       page-break-inside: avoid;
+      padding-top: 0;
     }
   }
 
